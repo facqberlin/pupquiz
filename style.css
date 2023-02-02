@@ -1,0 +1,483 @@
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-Italic.woff2') format('woff2'),
+        url('fonts/Raleway-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* @font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-BlackItalic.woff2') format('woff2'),
+        url('fonts/Raleway-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-ExtraBoldItalic.woff2') format('woff2'),
+        url('fonts/Raleway-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-ExtraBold.woff2') format('woff2'),
+        url('fonts/Raleway-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-Black.woff2') format('woff2'),
+        url('fonts/Raleway-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+} */
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-Bold.woff2') format('woff2'),
+        url('fonts/Raleway-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-BoldItalic.woff2') format('woff2'),
+        url('fonts/Raleway-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+/* 
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-Light.woff2') format('woff2'),
+        url('fonts/Raleway-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-ExtraLightItalic.woff2') format('woff2'),
+        url('fonts/Raleway-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-ExtraLight.woff2') format('woff2'),
+        url('fonts/Raleway-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-SemiBoldItalic.woff2') format('woff2'),
+        url('fonts/Raleway-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-SemiBold.woff2') format('woff2'),
+        url('fonts/Raleway-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-Thin.woff2') format('woff2'),
+        url('fonts/Raleway-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+ */
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url('fonts/RobotoMono-Bold.woff2') format('woff2'),
+        url('fonts/RobotoMono-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+/* 
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-LightItalic.woff2') format('woff2'),
+        url('fonts/Raleway-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-Medium.woff2') format('woff2'),
+        url('fonts/Raleway-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-ThinItalic.woff2') format('woff2'),
+        url('fonts/Raleway-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-MediumItalic.woff2') format('woff2'),
+        url('fonts/Raleway-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+ */
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-Regular.woff2') format('woff2'),
+        url('fonts/Raleway-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+/* 
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url('fonts/RobotoMono-Medium.woff2') format('woff2'),
+        url('fonts/RobotoMono-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+ */
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url('fonts/RobotoMono-Regular.woff2') format('woff2'),
+        url('fonts/RobotoMono-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+/* 
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url('fonts/RobotoMono-SemiBoldItalic.woff2') format('woff2'),
+        url('fonts/RobotoMono-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url('fonts/RobotoMono-ExtraLightItalic.woff2') format('woff2'),
+        url('fonts/RobotoMono-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+ */
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url('fonts/RobotoMono-Italic.woff2') format('woff2'),
+        url('fonts/RobotoMono-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+/* 
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url('fonts/RobotoMono-ExtraLight.woff2') format('woff2'),
+        url('fonts/RobotoMono-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url('fonts/RobotoMono-MediumItalic.woff2') format('woff2'),
+        url('fonts/RobotoMono-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url('fonts/RobotoMono-LightItalic.woff2') format('woff2'),
+        url('fonts/RobotoMono-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+ */
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url('fonts/RobotoMono-BoldItalic.woff2') format('woff2'),
+        url('fonts/RobotoMono-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+/* 
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url('fonts/RobotoMono-Light.woff2') format('woff2'),
+        url('fonts/RobotoMono-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url('fonts/RobotoMono-SemiBold.woff2') format('woff2'),
+        url('fonts/RobotoMono-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+ */
+
+body{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    background-color: #C675FF;
+}
+
+#container{
+    margin : 50px auto;
+    background-color: white;
+    height: 600px;
+    width : 700px;
+    border-radius: 2px;
+    box-shadow: 5px 5px;
+    position: relative;
+}
+#start{
+    font-size: 1.5em;
+    font-weight: bolder;
+    /* word-break: break-all; */
+    width:100px;
+    height:100px;
+    margin: 0px auto;
+    border : 2px solid black;
+    text-align: center;
+    cursor: pointer;
+    padding: 50px;
+    position: absolute;
+    left:250px;
+    top:200px; 
+    /* color : lightgrey; */
+}
+
+#start:hover{
+    border: 3px solid #FF0299;
+    color : #FF0299;
+}
+
+/* #qImg{
+    width : 200px;
+    height : 200px;
+    position: absolute;
+    left : 0px;
+    top : 0px;
+}
+#qImg img{
+    width : 200px;
+    height : 200px;
+    border-top-left-radius: 5px;
+} */
+
+#category {
+font-family: 'Roboto Mono';
+font-weight: bold;
+text-transform: uppercase;
+letter-spacing: 3px;
+color:  #C675FF;
+display: inline-block;
+padding-bottom: 5px;
+margin-left: 50px;
+margin-top: 50px;
+border-bottom: 2px solid #C675FF;
+}
+
+#question{
+    width:500px;
+    height : 125px;
+    margin-left: 50px;
+    margin-top: 1.5rem;
+    /* position: absolute;
+    right:0;
+    top:0; */
+}
+#question p{
+    margin : 0;
+    /* padding : 15px; */
+    font-size: 1.25em;
+}
+
+#choices{
+    width : 600px;
+    position: absolute;
+    left : 50px;
+    top : 250px;
+    display: flex;
+    /* padding : 50px */
+}
+.choice{
+    font-family: 'Roboto Mono';
+    font-size: 0.8em;
+    /* display: inline-block; */
+    width : 120px;
+    text-align: center;
+    border : 2px solid #FF0299;
+    /* border-radius: 5px; */
+    cursor: pointer;
+    padding : 20px;
+    margin: 0px 10px;
+}
+.choice:hover{
+    font-family: 'Roboto Mono';
+    border : 4px solid #FF0299;
+    font-weight: bold;
+}
+
+#timer{
+    position: absolute;
+    height : 100px;
+    width : 200px;
+    bottom : 0px;
+    text-align: center;
+}
+#counter{
+    font-family: 'Roboto Mono';
+    font-size: 2em;
+}
+#btimeGauge{
+    width : 150px;
+    height : 10px;
+    border-radius: 10px;
+    background-color: rgb(231, 231, 231);
+    margin-left : 25px;
+}
+#timeGauge{
+    height : 10px;
+    border-radius: 10px;
+    background-color: #C675FF;
+    margin-top : -10px;
+    margin-left : 25px;
+}
+#progress{
+    width : 500px;
+    position: absolute;
+    bottom : 0px;
+    right : 0px;
+    padding:5px;
+    text-align: right;
+}
+.prog{
+    width : 15px;
+    height : 15px;
+    /* border: 1px solid #000; */
+    background-color: rgb(231, 231, 231);
+    display: inline-block;
+    border-radius: 50%;
+    margin-left : 3px;
+    margin-right : 3px;
+}
+#scoreContainer{
+    margin : 50px auto;
+    background-color: white;
+    width : 700px;
+    border-radius: 2px;
+    box-shadow: 5px 5px;
+    position: relative;
+    padding: 50px 0px;
+    /* margin : 20px auto;
+    background-color: white;
+    opacity: 0.8;
+    height: 300px;
+    width : 700px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px 0px;
+    position: relative;
+    display: none; */
+}
+#scoreText{
+    margin-left: 50px;
+}
+
+#scoreContainer p{
+    /* position: absolute;
+    display: block;
+    width : 59px;
+    height :59px;
+    top:130px;
+    left:325px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center; */
+}
+
+#answersList {
+    margin-right: 50px;
+}
+
+#answersList hr {
+    border:none;
+    border-bottom: 4px solid #C675FF;
+}
+
+.revealChoice, .revealCorrectLetter{
+    font-family: 'Roboto Mono';
+    font-size: 0.8em;
+}
+
+.revealCorrectLetter b {
+    display: inline-block;
+    padding: 5px;
+    margin-left:5px;
+border-bottom: 2px solid #FF0299;
+}
+
+.revealContext{
+    font-size: 16px;
+}
+
+#announceScore{
+font-size: 2rem;
+}
+
