@@ -286,29 +286,71 @@ body{
     box-shadow: 5px 5px;
     position: static;
     height: auto;
-    min-height: 600px;
+    min-height: 300px;
+    padding: 1px;
     padding-bottom: 50px;
+    
 }
+
+#flexcontainer {
+    position: static;
+    display: block;
+    margin: 50px;
+}
+
+#flexcontainer_end {
+    position: static;
+    display: block;
+}
+
 #start{
-    font-size: 1.5em;
-    font-weight: bolder;
-    /* word-break: break-all; */
-    width:50vw;
-    height:1.5em;
-    margin: 0px auto;
-    border : 2px solid black;
+    font-family: 'Roboto Mono';
+    font-size: 0.9em;
+    width: 80%;
+    display: block;
     text-align: center;
+    border : 2px solid #FF0299;
     cursor: pointer;
-    padding: 50px 0px;
-    position: absolute;
-    left:25vw;
-    top:50vw;  
-    /* color : lightgrey; */
+    padding: 20px;
+    margin: 20px 0px;
 }
 
 #start:hover{
-    border: 3px solid #FF0299;
+    border: 4px solid #FF0299;
     color : #FF0299;
+}
+
+#startNote {
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 1.25em;
+}
+
+.button_back{
+    font-family: 'Roboto Mono';
+    font-size: 0.8em;
+    width: 80%;
+    display: block;
+    /* display: inline-block; */
+    /* width : 120px; */
+    text-align: center;
+    border : 2px solid #FF0299;
+    /* border-radius: 5px; */
+    cursor: pointer;
+    padding: 20px;
+    margin: 20px 0px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.button_back:hover{
+    font-family: 'Roboto Mono';
+    border : 4px solid #FF0299;
+    font-weight: bold;
 }
 
 /* #qImg{

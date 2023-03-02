@@ -2,15 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
-    <title>Quiz</title>
-    <link rel="stylesheet" href="style.css">
+    <title>FACQ Pup Quiz</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
     <link rel="stylesheet" media="only screen and (max-width: 699px)" href="mobile.css" />
     <link rel="stylesheet" media="only screen and (min-width: 700px)" href="style.css" />
 </head>
 <body>
     <div id="container">
-        <div></div>
-        <div id="start">Start Quiz!</div>
+        <div id = "startcontainer">
+            <div id = "flexcontainer">
+                <div></div>
+                <div id="start">Start Quiz!</div>
+                <div></div>
+            </div>
+            <p id = "startNote">You have 30 seconds for each question to click the correct answer!</p>
+        </div>
         <div id="quiz" style="display: none">
             <div id="category"></div>
             <div id="question"></div>
@@ -32,6 +38,10 @@
                 <p id="announceScore">You got
                 <span id="score"></span>
                 of the questions right!</p>
+                <div id = "flexcontainer_end">
+                    <a class = "button_back" href="https://facqberlin.github.io/pupquiz">Try again!</a>
+                    <a class = "button_back" href="https://facqberlin.github.io">Go to startpage</a>         
+                </div> 
                 <p>Here are all the answers:</p>
                 <div id="answersList"></div>
             </div>

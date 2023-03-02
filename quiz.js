@@ -1,4 +1,5 @@
 const start = document.getElementById("start");
+const startcontainer = document.getElementById("startcontainer");
 const quiz = document.getElementById("quiz");
 const question = document.getElementById("question");
 const qImg = document.getElementById("qImg");
@@ -22,7 +23,7 @@ let questions = [
         choiceB : "Transsexuals Act",
         choiceC : "The Age of Consent for queer people",
         correct : "B",
-        context : "Add context"
+        context : ""
     },{
         category : "Politics",
         question : 'To avoid using "transphobia" which falsely frames prejudice and hate against Trans people, as an uncontrollable fear disorder, it is instead recommended to use:',
@@ -31,7 +32,7 @@ let questions = [
         choiceB : "Trans misia",
         choiceC : "Trans terror",
         correct : "B",
-        context : "Add context"
+        context : ""
     },{
         category : "Politics",
         question : "The unfair EU Dublin Regulation means:",
@@ -40,7 +41,7 @@ let questions = [
         choiceB : "Refugees can never become Europeans.",
         choiceC : "Refugees must apply for asylum in the first country of entry or arrival.",
         correct : "C",
-        context : "Add context"
+        context : ""
     },{
         category : "Politics",
         question : "What does Alt-Text mean?",
@@ -49,7 +50,7 @@ let questions = [
         choiceB : "Reading between the lines in your ex's message.",
         choiceC : "Text to describe an online image for people with impaired vision.",
         correct : "C",
-        context : "Add context"
+        context : ""
     },{
         category : "Politics",
         question : "Last year, 2022, how much did the EU pay Frontex for their criminal work at the borders?",
@@ -58,7 +59,7 @@ let questions = [
         choiceB : "754 million Euros",
         choiceC : "2.1 billion Euros",
         correct : "B",
-        context : "Add context"
+        context : ""
     },{
         category : "Politics",
         question : "What is the name of the platz in front of New Yorck Bethanien",
@@ -67,7 +68,7 @@ let questions = [
         choiceB : "Marielle Franco Platz",
         choiceC : "Esther Bejarano Platz",
         correct : "B",
-        context : "Add context"
+        context : ""
     },{
         category : "Politics",
         question : "When was Paragraph 175 (a provision of the German Criminal Code that criminalized homosexual acts) finally deleted?",
@@ -76,7 +77,7 @@ let questions = [
         choiceB : "1984",
         choiceC : "1994",
         correct : "C",
-        context : "Add context"
+        context : ""
     },{
         category : "Politics",
         question : "How may European Countries still demand forced sterilization, in order for Transpeople to achieve legal recognition and access to Trans-healthcare?",
@@ -85,7 +86,7 @@ let questions = [
         choiceB : "9",
         choiceC : "13",
         correct : "B",
-        context : "Add context"
+        context : ""
     },{
         category : "Queer Trivia and Terminologies",
         question : "Which of these statements is false?",
@@ -94,7 +95,7 @@ let questions = [
         choiceB : "Kai-Kai is a town in Cameroon",
         choiceC : "Kai-Kai is queer-slang for saying bye.",
         correct : "C",
-        context : "Add context"
+        context : ""
     },{
         category : "Queer Trivia and Terminologies",
         question : "In English queer-slang, Who is a Zucchini?",
@@ -103,7 +104,7 @@ let questions = [
         choiceB : "A partner in a queer platonic relationship",
         choiceC : "A Straight person who kisses queer people at parties",
         correct : "B",
-        context : "Add context"
+        context : ""
     },{
         category : "Queer Trivia and Terminologies",
         question : "In children programs, which Teletubby was accused of being queer and of promoting homosexuality by a Polish politician?",
@@ -112,7 +113,7 @@ let questions = [
         choiceB : "Laa Laa",
         choiceC : "Tinky Winky",
         correct : "C",
-        context : "Add context"
+        context : ""
     },{
         category : "Queer Trivia and Terminologies",
         question : "Following these accusations, How was the accused Tele Tubby punished?",
@@ -121,7 +122,7 @@ let questions = [
         choiceB : "The accused Teletubby was no longer allowed to operate the squirting Tubby Custard Machine.",
         choiceC : "The accused Teletubby was no longer allowed to sleep in the Tubbytronic-Superdome.  ",
         correct : "A",
-        context : "Add context"
+        context : ""
     },{
         category : "Queer Trivia and Terminologies",
         question : "How many colors are there in the inclusive queer flag also sometimes called the progressive rainbow flag?",
@@ -130,7 +131,7 @@ let questions = [
         choiceB : "12",
         choiceC : "16",
         correct : "B",
-        context : "Add context"
+        context : ""
     },{
         category : "Queer Trivia and Terminologies",
         question : "What does the P. in the name of queer legend, Marsha P. Johnson, stand for?",
@@ -139,7 +140,7 @@ let questions = [
         choiceB : "Pay it no mind",
         choiceC : "Pray for revolution",
         correct : "B",
-        context : "Add context"
+        context : ""
     },{
         category : "Queer Trivia and Terminologies",
         question : "How many European Countries, one of which is Germany, still officially Pathologize Transpeople by categorizing Transidentity as a mental health disorder?",
@@ -148,7 +149,7 @@ let questions = [
         choiceB : "11",
         choiceC : "16",
         correct : "C",
-        context : "Add context"
+        context : ""
     },{
         category : "Queer Trivia and Terminologies",
         question : "What does Endosex mean?",
@@ -157,7 +158,7 @@ let questions = [
         choiceB : "Sex that is focused on orgasm.",
         choiceC : "A person born with a body that fits into the binary of male/female",
         correct : "C",
-        context : "Add context"
+        context : ""
     },{
         category : "Queer Trivia and Terminologies",
         question : "What is the name of the very famous Arab poet, from the 8th century, who wrote graphic homosexual poetry?",
@@ -166,7 +167,7 @@ let questions = [
         choiceB : "Abu Nawwas",
         choiceC : "Kahlil Gibran",
         correct : "B",
-        context : "Add context"
+        context : ""
     },{
         category : "Queer Trivia and Terminologies",
         question : "What is a FART?",
@@ -175,7 +176,7 @@ let questions = [
         choiceB : "Feminism appropriating ridiculous transphobe",
         choiceC : "Feminist Association of Racist Terfs",
         correct : "B",
-        context : "Add context"
+        context : ""
     },{
         category : "Queer Trivia and Terminologies",
         question : "Which country in the world has LGBTIQ-free zones, where LGBTIQ people are banned?",
@@ -184,7 +185,7 @@ let questions = [
         choiceB : "Kenya",
         choiceC : "Poland",
         correct : "C",
-        context : "Add context"
+        context : ""
     },{
         category : "Anti-Colonial Politics",
         question : "Homosexuality was declared illegal in Tanzania when it was under German colonial rule. Today, homosexuality in Tanzania is:",
@@ -193,7 +194,7 @@ let questions = [
         choiceB : "Punishable by death",
         choiceC : "Punishable with life imprisonment",
         correct : "C",
-        context : "Add context"
+        context : ""
     },{
         category : "Anti-Colonial Politics",
         question : "In Samoan culture, there are words for...",
@@ -202,7 +203,7 @@ let questions = [
         choiceB : "three genders",
         choiceC : "four genders",
         correct : "C",
-        context : "Add context"
+        context : ""
     },{
         category : "Anti-Colonial Politics",
         question : "In which country, was homosexuality declared illegal when it was under German colonial rule?",
@@ -211,7 +212,7 @@ let questions = [
         choiceB : "Uruguay in 1875",
         choiceC : "Mallorca in 1714",
         correct : "A",
-        context : "Add context"
+        context : ""
     },{
         category : "Anti-Colonial Politics",
         question : "Instated under German colonization, in Namibia it is a crime since the1880s to...",
@@ -220,7 +221,7 @@ let questions = [
         choiceB : "Have anal sex",
         choiceC : "Have threesomes",
         correct : "B",
-        context : "Add context"
+        context : ""
     },{
         category : "Anti-Colonial Politics",
         question : "What happened on the 12th of October 1492?",
@@ -229,7 +230,7 @@ let questions = [
         choiceB : "The start of the colonisation of Abya Yala and Turtle Island.",
         choiceC : "Spain declared itself a colonial power",
         correct : "B",
-        context : "Add context"
+        context : ""
     },{
         category : "Anti-Colonial Politics",
         question : "What else happened in 1492?",
@@ -238,7 +239,7 @@ let questions = [
         choiceB : "The Amazigh language was banned across North Africa.",
         choiceC : "The enslavement trade became legal. ",
         correct : "A",
-        context : "Add context"
+        context : ""
     },{
         category : "Anti-Colonial Politics",
         question : "How many of the forcefully displaced people & refugees worldwide come from Ex European Colonies?",
@@ -247,7 +248,7 @@ let questions = [
         choiceB : "63 %",
         choiceC : "96 %",
         correct : "C",
-        context : "Add context"
+        context : ""
     },{
         category : "Anti-Colonial Politics",
         question : "When did the glorious Haitian Revolution start?",
@@ -256,7 +257,7 @@ let questions = [
         choiceB : "1818",
         choiceC : "1912",
         correct : "A",
-        context : "Add context"
+        context : ""
     },{
         category : "Anti-Colonial Politics",
         question : "She wrote what is known to be the first academic study of Afro-German history, and she has a street in Kreuzberg named after her. What is her name?",
@@ -265,7 +266,7 @@ let questions = [
         choiceB : "May Ayim",
         choiceC : "Natasha A. Kelly",
         correct : "B",
-        context : "Add context"
+        context : ""
     },{
         category : "Anti-Colonial Politics",
         question : "To which culture of the Oaxaca region (Mexico) do the 'muxe', considered a third gender (or non-binary), belong?",
@@ -274,7 +275,7 @@ let questions = [
         choiceB : "Mixtec",
         choiceC : "Mixe",
         correct : "A",
-        context : "Add context"
+        context : ""
     },{
         category : "Pop Culture",
         question : "What was the name of the Afro-German musical trio popular in the 90s?",
@@ -283,7 +284,7 @@ let questions = [
         choiceB : "XOXO",
         choiceC : "TicTacToe",
         correct : "C",
-        context : "Add context"
+        context : ""
     },{
         category : "Pop Culture",
         question : "She is a black trans singer, known as the Queen of Reggaeton. What is her name?",
@@ -292,7 +293,7 @@ let questions = [
         choiceB : "Tokischa",
         choiceC : "Mykki Blanco",
         correct : "A",
-        context : "Add context"
+        context : ""
     },{
         category : "Pop Culture",
         question : "Who was the best friend of La Veneno (an iconic Spanish trans woman, actress, celebrity & sex worker)?",
@@ -301,7 +302,7 @@ let questions = [
         choiceB : "Paca La Piraña",
         choiceC : "Malena Gracia",
         correct : "B",
-        context : "Add context"
+        context : ""
     },{
         category : "Pop Culture",
         question : "What is the name of the queer South African duo who made African rap with post-apartheid house music?",
@@ -310,7 +311,7 @@ let questions = [
         choiceB : "Ibeyi",
         choiceC : "Dope Saint Jude",
         correct : "A",
-        context : "Add context"
+        context : ""
     },{
         category : "Pop Culture",
         question : "What was the name of the debut album from the secretly queer, and secretly lipsync'ing, 80's pop group Locomia?",
@@ -319,7 +320,7 @@ let questions = [
         choiceB : "Corazon",
         choiceC : "Taiyo",
         correct : "C",
-        context : "Add context"
+        context : ""
     },{
         category : "Geography",
         question : "What is Wallampu?",
@@ -328,7 +329,7 @@ let questions = [
         choiceB : "The land of Mapuche people under Argentina and Chile's rule",
         choiceC : "The land of First Nations under Canadian rule",
         correct : "B",
-        context : "Add context"
+        context : ""
     },{
         category : "Geography",
         question : "Which river flows through Iraq's capital Baghdad?",
@@ -337,7 +338,7 @@ let questions = [
         choiceB : "The Euphrates",
         choiceC : "The Tigris",
         correct : "C",
-        context : "Add context"
+        context : ""
     },{
         category : "Geography",
         question : "Zanzibar has big historical importance, what country did it become today?",
@@ -346,7 +347,7 @@ let questions = [
         choiceB : "Tanzania",
         choiceC : "Kenya",
         correct : "B",
-        context : "Add context"
+        context : ""
     },{
         category : "Geography",
         question : "Decathlon appropriated the name of the Quechua people. Which country has the highest population of Quechua speakers?",
@@ -355,7 +356,7 @@ let questions = [
         choiceB : "Chile",
         choiceC : "Peru",
         correct : "C",
-        context : "Add context"
+        context : ""
     },{
         category : "Sex, Sexuality, and Kink",
         question : "The term Kink has roots in",
@@ -364,7 +365,7 @@ let questions = [
         choiceB : "60s US English",
         choiceC : "Old Nordic or Norse languages",
         correct : "C",
-        context : "Add context"
+        context : ""
     },{
         category : "Sex, Sexuality, and Kink",
         question : "In Kink play, what does Figging mean?",
@@ -373,7 +374,7 @@ let questions = [
         choiceB : "To insert a piece of ginger in the anus",
         choiceC : "To play with a whip",
         correct : "B",
-        context : "Add context"
+        context : ""
     },{
         category : "Sex, Sexuality, and Kink",
         question : 'What is "futomomo"?',
@@ -382,7 +383,7 @@ let questions = [
         choiceB : 'A Shibari term meaning "fat leg", because of how the leg looks tied',
         choiceC : "A brand producing gender-inclusive sex-toys",
         correct : "B",
-        context : "Add context"
+        context : ""
     },{
         category : "Sex, Sexuality, and Kink",
         question : 'In safer sex, what two things do NOT go together?',
@@ -391,7 +392,7 @@ let questions = [
         choiceB : "Vibrators and Showers",
         choiceC : "Kissing and eating",
         correct : "A",
-        context : "Add context"
+        context : ""
     },{
         category : "Sex, Sexuality, and Kink",
         question : "What is Philemaphobia?",
@@ -400,7 +401,7 @@ let questions = [
         choiceB : "Fear of Kissing",
         choiceC : "Fear of Rimming",
         correct : "B",
-        context : "Add context"
+        context : ""
     }
 ];
 
@@ -431,7 +432,7 @@ start.addEventListener("click",startQuiz);
 
 // start quiz
 function startQuiz(){
-    start.style.display = "none";
+    startcontainer.style.display = "none";
     renderQuestion();
     quiz.style.display = "block";
     renderProgress();
