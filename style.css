@@ -334,6 +334,13 @@ a {
     font-size: 1.25em;
 }
 
+#startNoteSmall {
+    width: 500px;
+    margin: 30px auto 0px;
+    text-align: center;
+    font-size: 0.9em;
+}
+
 .button_back{
     font-family: 'Roboto Mono';
     font-size: 0.8em;
@@ -512,13 +519,24 @@ border-bottom: 2px solid #C675FF;
 
 .revealCorrectLetter b {
     display: inline-block;
-    padding: 5px;
-    margin-left:5px;
-border-bottom: 2px solid #FF0299;
+    padding: 3px 8px;
+    margin-left: 5px;
+border: 2px solid #FF0299;
+border-radius: 15px;
 }
 
 .revealContext{
     font-size: 16px;
+    line-height: 1.5;
+}
+
+.revealContext a {
+    text-decoration: underline;
+    text-decoration-color: #FF0299;
+}
+
+.revealContext img {
+    width: 100%;
 }
 
 #announceScore{
