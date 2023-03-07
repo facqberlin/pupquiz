@@ -22,10 +22,10 @@ let questions = [
         choiceB : "Transsexuals Act",
         choiceC : "The Age of Consent for queer people",
         correct : "B",
-        context : "The Transsexuals Act (in German: Transsexuellen Gesetz TSG) was passed on September 10th 1980 and defines under which conditions trans people are allowed to change their legal name and gender marker. These conditions include the transphobic and dehumanizing practices of requiring people to be unmarried, to not be able to reproduce (to have undergone sterilization), and to have had surgeries of the external genitalia. According to the TSG trans people also need to undergo examinations from two doctors or therapists, a practice that pathologizes and dehumanizes trans people. The Transsexuals Act has been ruled unconstitutional because it harms the dignity and bodies of trans people and is, therefore, to be replaced by the Self-Determination Act."
+        context : "The Transsexuals Act (in German: Transsexuellen Gesetz TSG) was passed on September 10th 1980 and defines under which conditions trans people are allowed to change their legal name and gender marker. These conditions include the transmisic and dehumanizing practices of requiring people to be unmarried, to not be able to reproduce (to have undergone sterilization), and to have had surgeries of the external genitalia. According to the TSG trans people also need to undergo examinations from two doctors or therapists, a practice that pathologizes and dehumanizes trans people. The Transsexuals Act has been ruled unconstitutional because it harms the dignity and bodies of trans people and is, therefore, to be replaced by the Self-Determination Act."
     },{
         category : "Politics",
-        question : 'To avoid using "transphobia" which falsely frames prejudice and hate against Trans people, as an uncontrollable fear disorder, it is instead recommended to use:',
+        question : 'To avoid using "transphobia" which falsely frames prejudice and hate against trans people, as an uncontrollable fear disorder, it is instead recommended to use:',
         choiceA : "Trans misanthropie",
         choiceB : "Trans misia",
         choiceC : "Trans terror",
@@ -73,7 +73,7 @@ let questions = [
         context : "Homosexuality was criminalized in Germany for 123 years. The Nazis used §175 to persecute and intern and kill thousands of gay men in concentration camps. During this period approximately 50.000 gay men were convicted for homosexual acts. After 1945 §175 remained in place until 1994 when it was abolished. Though in the GDR this happened earlier and in different stages, and starting in the 1950s homosexual acts between consenting adults ceased to be punished."
     },{
         category : "Politics",
-        question : "How may European Countries still demand forced sterilization, in order for Transpeople to achieve legal recognition and access to Trans-healthcare?",
+        question : "How may European Countries still demand forced sterilization, in order for trans people to achieve legal recognition and access to trans-healthcare?",
         choiceA : "5",
         choiceB : "9",
         choiceC : "13",
@@ -126,10 +126,10 @@ let questions = [
         choiceB : "Pay it no mind",
         choiceC : "Pray for revolution",
         correct : "B",
-        context : "Marsha P. Johnson is a legendary queer activist from New York City. She was one of the central figures during the Stonewall Riots and fought, together with trans activist Sylvia Rivera, for the rights of poor Trans people of color and against the white-washing of the gay liberation movement in the United States. Together with Rivera she founded the group Street Transvestite Action Revolutionaries (STAR) that supported queer youth and sexworkers."
+        context : "Marsha P. Johnson is a legendary queer activist from New York City. She was one of the central figures during the Stonewall Riots and fought, together with trans activist Sylvia Rivera, for the rights of poor trans people of color and against the white-washing of the gay liberation movement in the United States. Together with Rivera she founded the group Street Transvestite Action Revolutionaries (STAR) that supported queer youth and sexworkers."
     },{
         category : "Queer Trivia and Terminologies",
-        question : "How many European Countries, one of which is Germany, still officially Pathologize Transpeople by categorizing Transidentity as a mental health disorder?",
+        question : "How many European Countries, one of which is Germany, still officially Pathologize trans people by categorizing trans identity as a mental health disorder?",
         choiceA : "7",
         choiceB : "11",
         choiceC : "16",
@@ -156,7 +156,7 @@ let questions = [
         category : "Queer Trivia and Terminologies",
         question : "What is a FART?",
         choiceA : "Feminist against the right to transition",
-        choiceB : "Feminism appropriating ridiculous transphobe",
+        choiceB : "Feminism appropriating ridiculous transmisic",
         choiceC : "Feminist Association of Racist Terfs",
         correct : "B",
         context : "Some call them TERFs, we call them FARTs! And we strongly dislike them. Ewe!"
@@ -379,7 +379,7 @@ let questions = [
         context : ""
     },{
         category : "Geography",
-        question : "What is Wallampu?",
+        question : "What is Wallmapu?",
         choiceA : "A series of mountains between India and Pakistan",
         choiceB : "The land of Mapuche people under Argentina and Chile's rule",
         choiceC : "The land of First Nations under Canadian rule",
