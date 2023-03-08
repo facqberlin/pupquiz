@@ -347,14 +347,6 @@ let questions = [
         context : ""
     },{
         category : "Pop Culture",
-        question : "She is a black trans singer, known as the Queen of Reggaeton. What is her name?",
-        choiceA : "Ivy Queen",
-        choiceB : "Tokischa",
-        choiceC : "Mykki Blanco",
-        correct : "A",
-        context : ""
-    },{
-        category : "Pop Culture",
         question : "Who was the best friend of <i>La Veneno</i> (an iconic Spanish trans woman, actress, celebrity & sex worker)?",
         choiceA : "Antoñita la Fantástica",
         choiceB : "Paca La Piraña",
